@@ -1,0 +1,12 @@
+<section>
+  <button class="btn btn-primary" (click)="hideP()">Display Details</button>
+  <p [hidden]="showP">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, eos?
+  </p>
+</section>
+<p class="lista"
+  *ngFor="let click of clicks; let i=index;"
+  [ngStyle]="{backgroundColor: i >= 4 ? 'black' : 'white'}" 
+  [ngClass]="{'colorWhite': i >= 4}">{{ click }}
+</p>
+

@@ -1,0 +1,21 @@
+section{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rosybrown;
+    padding: 5px;
+}
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: thistle;
+    margin: 5px;
+    padding: 3px;
+}
+
+.lista{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.colorWhite{
+    color: white;
+}
